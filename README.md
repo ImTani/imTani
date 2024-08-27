@@ -24,6 +24,7 @@ Catch me live on [Twitch](https://www.twitch.tv/infiniTani_) where I share my ga
 ## 🧠 Fun Facts
 
 - Deadpan humor is my go-to, so expect a few dry jokes here and there.
+- I have the attention span of a fruit-fly, so much so that I'm called Dementia Gamedev 'round these parts 😭
 
 ## 🌐 Connect with Me
 
