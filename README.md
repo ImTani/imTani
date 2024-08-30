@@ -6,11 +6,8 @@ Welcome to my corner of the infinite digital universe! 🌌 I'm Tani, a game dev
 ## 🚀 Current Projects
 
 - **Rise&Shine**: My upcoming mobile game, a puzzle platformer initially made for the Learn You A Game Jam 2024
-
-## 🎮 Past Projects
-
-- **Time Manipulation Mechanics**: A showcase of time-warping abilities inspired by games like *Braid*. This project was submitted for the *Mechanically Challenged* challenge.
-- **Twitch Stream Overlays**: Custom overlays that turn my viewers into walking characters on the stream.
+- **TimeRewind2D**: A godot plugin that implements time-warping abilities inspired by games like *Braid*. This project was initially developed for the *Mechanically Challenged* challenge.
+- **Twitch Stream Overlay**: My custom twitch overlay built with godot that turns my viewers into walking characters on the stream and much more.
 
 ## 🌱 What I’m Learning
 
