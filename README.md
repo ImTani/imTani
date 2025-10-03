@@ -21,12 +21,6 @@ Game developer and software engineer passionate about creating interactive exper
 
 ## 🎮 Featured Projects
 
-### [SafeSpace](https://github.com/ImTani/safe-space)
-A digital mental health companion combining AI empathy with human understanding to support student mental health.
-- 🤖 AI-powered emotional support
-- 🎯 Student-focused design
-- 💡 Innovative approach to mental health tech
-
 ### [Godot Time Rewind 2D](https://github.com/ImTani/godot-time-rewind-2d)
 A popular Godot Engine plugin enabling time manipulation in 2D games.
 - ⭐ 22 Stars
