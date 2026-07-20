@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="900" height="190" role="img" aria-label="Tanishk Narula">
+  <title>Tanishk Narula</title>
+
+  <style>
+    :root { color-scheme: light dark; }
+    .ink    { fill: #1c1b19; }
+    .muted  { fill: #6b6864; }
+    .track  { stroke: #d6d3ce; }
+    .accent { fill: #eb6834; }
+    .astk   { stroke: #eb6834; }
+    @media (prefers-color-scheme: dark) {
+      .ink   { fill: #f2efe9; }
+      .muted { fill: #8f8b84; }
+      .track { stroke: #33312e; }
+    }
+
+    /* Sweep forward over 82% of the cycle, then snap back. The rewind is the point. */
+    @keyframes sweep {
+      0%   { transform: translateX(0px); }
+      82%  { transform: translateX(690px); }
+      88%  { transform: translateX(690px); }
+      100% { transform: translateX(0px); }
+    }
+    @keyframes stretch {
+      0%   { width: 0px; }
+      82%  { width: 690px; }
+      88%  { width: 690px; }
+      100% { width: 0px; }
+    }
+    /* Echoes light up as the head passes, then get eaten on the way back. */
+    @keyframes echo {
+      0%, 4%   { opacity: 0; }
+      12%      { opacity: 1; }
+      82%      { opacity: 1; }
+      100%     { opacity: 0; }
+    }
+    @keyframes flicker {
+      0%, 82%  { opacity: 1; }
+      84%      { opacity: 0.25; }
+      86%      { opacity: 1; }
+      88%      { opacity: 0.35; }
+      100%     { opacity: 1; }
+    }
+
+    .head   { animation: sweep 5.2s cubic-bezier(.33,0,.2,1) infinite; }
+    .trail  { animation: stretch 5.2s cubic-bezier(.33,0,.2,1) infinite; }
+    .group  { animation: flicker 5.2s linear infinite; }
+    .e      { animation: echo 5.2s linear infinite; }
+    .e2 { animation-delay: -4.4s; } .e3 { animation-delay: -3.9s; }
+    .e4 { animation-delay: -3.4s; } .e5 { animation-delay: -2.9s; }
+    .e6 { animation-delay: -2.4s; } .e7 { animation-delay: -1.9s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .head, .trail, .group, .e { animation: none; }
+      .trail { width: 690px; }
+      .e { opacity: 1; }
+    }
+  </style>
+
+  <g class="group">
+    <text x="100" y="78" class="ink"
+          font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="42" font-weight="600" letter-spacing="-0.5">Tanishk Narula</text>
+
+    <text x="102" y="108" class="muted"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="13" letter-spacing="2.5">REWIND &#183; REBUILD &#183; SHIP</text>
+
+    <!-- timeline -->
+    <line x1="100" y1="146" x2="800" y2="146" class="track" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- consumed portion -->
+    <rect class="trail accent" x="100" y="144.5" height="3" rx="1.5" opacity="0.85"/>
+
+    <!-- keyframe echoes along the track -->
+    <g class="accent">
+      <circle class="e e2" cx="198" cy="146" r="3"/>
+      <circle class="e e3" cx="296" cy="146" r="3"/>
+      <circle class="e e4" cx="394" cy="146" r="3"/>
+      <circle class="e e5" cx="492" cy="146" r="3"/>
+      <circle class="e e6" cx="590" cy="146" r="3"/>
+      <circle class="e e7" cx="688" cy="146" r="3"/>
+    </g>
+
+    <!-- playhead -->
+    <g class="head">
+      <rect class="accent" x="97" y="132" width="6" height="28" rx="3"/>
+    </g>
+  </g>
+</svg>

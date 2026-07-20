@@ -1,43 +1,50 @@
-# 👋 Hi, I'm Tanishk (@ImTani)
+<img src="https://raw.githubusercontent.com/ImTani/imTani/main/header.svg" alt="Tanishk Narula" width="100%">
 
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/tanishk-narula)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://twitter.com/infinitani)
+Well, hello there. It seems you've taken quite a fancy, to have made your way all the
+way here. Now that you *are* here, we should get to the good bit, shall we?
 
-</div>
+Machine learning at [AiHello](https://aihello.com) since I was seventeen — agentic
+pipelines, voice cloning, retrieval, and a
+[pricing engine](https://medium.com/@tanishknarula) where I spent five months on a
+reinforcement-learning agent and shipped the statistical model instead, because the
+statistical model won. Co-founder at [SmoothSend](https://smoothsend.xyz), which lets you
+send stablecoins without holding the gas token —
+[SDK](https://www.npmjs.com/package/@smoothsend/sdk),
+[MCP server](https://www.npmjs.com/package/@smoothsend/mcp),
+[live on mainnet](https://status.smoothsend.xyz). I make games, so I keep making
+[the](https://github.com/ImTani/godot-time-rewind-2d)
+[things](https://github.com/ImTani/godot-property-selection-window) that make games
+easier, and I [teach it](https://github.com/ImTani/LearnYouAGodot) to people starting out.
 
-## 🚀 About Me
-Game developer and software engineer passionate about creating interactive experiences and innovative solutions. Proficient in Godot Engine, Python, and full-stack development.
+### Recent
 
-### 🛠️ Tech Stack
+- **[clipd](https://github.com/ImTani/clipd)** — you hit a good clip, you press F8, and
+  nothing happens, because NVIDIA wasn't on, or the overlay didn't load, or Medal wasn't
+  configured. This one works. Rust, ~9 MB, saves in under a millisecond, no account, no
+  subscription, no telemetry.
+- **[@smoothsend/sdk](https://github.com/SmoothSend/smoothsend-sdk)** — gasless stablecoin
+  transfers in four lines.
+- **[godot-time-rewind-2d](https://github.com/ImTani/godot-time-rewind-2d)** — handles all
+  the complex stuff for you. Choose the properties you want to rewind, and get at it.
+- **[FinWise](https://github.com/ImTani/FinWise)** — knowledge-graph RAG over Neo4j with
+  natural-language-to-Cypher. Built at a hackathon. Got me hired.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+### Running right now
 
-## 📊 GitHub Stats
+<!-- STATUS:START -->
+_Waiting for the first workflow run._
+<!-- STATUS:END -->
 
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ImTani&show_icons=true&theme=radical)
-  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ImTani&layout=compact&theme=radical)
+### Currently
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ImTani&theme=radical)](https://git.io/streak-stats)
+<!-- Optional: uncomment once you've tagged clipd v0.1.0 and there's something to download.
+     ![clipd](https://img.shields.io/github/v/release/ImTani/clipd?label=clipd&color=eb6834)
+     ![size](https://img.shields.io/github/size/ImTani/clipd/dist/clipd.exe?label=binary) -->
 
-</div>
+<!-- [FILL] Link the art. Don't describe it. One URL — music, drawings, the Steam credit,
+     a poem, voice work — dropped into the paragraph above, the way the code is linked.
+     A stranger should be able to click it, not be told about it. -->
 
-## 📫 Connect With Me
-- 🌐 LinkedIn: [tanishk-narula](https://www.linkedin.com/in/tanishk-narula)
-- 🐦 Twitter: [@infinitani](https://twitter.com/infinitani)
-- 🕒 Timezone: UTC +05:30
+<sub>There is a door here. It is unlocked. [Go on, then.](https://github.com/ImTani/imTani/blob/main/rooms/hall.md)</sub>
 
----
-
-<div align="center">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=ImTani&color=blueviolet)
-[![GitHub followers](https://img.shields.io/github/followers/ImTani?label=Follow&style=social)](https://github.com/ImTani)
-
-</div>
+[tani.codes](https://tani.codes) · [LinkedIn](https://www.linkedin.com/in/tanishk-narula) · [@infinitani](https://x.com/infinitani)

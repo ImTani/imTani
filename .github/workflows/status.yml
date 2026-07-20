@@ -1,0 +1,102 @@
+# Place at .github/workflows/status.yml in the ImTani/imTani repository.
+#
+# Rewrites the block between <!-- STATUS:START --> and <!-- STATUS:END --> in
+# README.md with live uptime and response times from the SmoothSend Upptime
+# instance. Runs every six hours, and on demand from the Actions tab.
+#
+# No secrets needed - the Upptime API is public JSON on raw.githubusercontent.com.
+
+name: Update status block
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # offset from the hour; Actions cron is congested on :00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: status-block
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild status block
+        run: |
+          python3 - <<'PY'
+          import json, re, urllib.request, urllib.error
+          from datetime import datetime, timezone
+
+          BASE = "https://raw.githubusercontent.com/SmoothSend/status/master/api"
+
+          # (display name, upptime slug) - slugs verified live 2026-07-21
+          SERVICES = [
+              ("API Gateway",       "api-gateway"),
+              ("Aptos Relayer",     "aptos-relayer-mainnet"),
+              ("Avalanche Bundler", "avalanche-bundler-mainnet"),
+          ]
+
+          def fetch(slug, metric):
+              url = f"{BASE}/{slug}/{metric}.json"
+              try:
+                  with urllib.request.urlopen(url, timeout=20) as r:
+                      return json.loads(r.read().decode()).get("message", "?")
+              except (urllib.error.URLError, json.JSONDecodeError, TimeoutError):
+                  return None
+
+          rows, degraded = [], False
+          for name, slug in SERVICES:
+              up = fetch(slug, "uptime")
+              rt = fetch(slug, "response-time")
+              if up is None:
+                  degraded = True
+                  rows.append(f"| {name} | — | — |")
+              else:
+                  rows.append(f"| {name} | {up} | {rt or '—'} |")
+
+          stamp = datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC")
+          block = "\n".join([
+              "| Service | Uptime (all-time) | Response |",
+              "|---|---|---|",
+              *rows,
+              "",
+              f"<sub>Mainnet only. Updated {stamp}.</sub>",
+          ])
+
+          path = "README.md"
+          src = open(path, encoding="utf-8").read()
+          new = re.sub(
+              r"(<!-- STATUS:START -->).*?(<!-- STATUS:END -->)",
+              lambda m: f"{m.group(1)}\n{block}\n{m.group(2)}",
+              src,
+              flags=re.S,
+          )
+
+          if new == src:
+              print("no change")
+          else:
+              open(path, "w", encoding="utf-8").write(new)
+              print("updated")
+
+          # Surface a partial fetch without failing the run - a stale block beats
+          # a red X on the profile repo.
+          if degraded:
+              print("::warning::one or more Upptime endpoints did not respond")
+          PY
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: refresh live status block"
+            git push
+          else
+            echo "nothing to commit"
+          fi
