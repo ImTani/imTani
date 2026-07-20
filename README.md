@@ -32,7 +32,13 @@ easier, and I [teach it](https://github.com/ImTani/LearnYouAGodot) to people sta
 ### Running right now
 
 <!-- STATUS:START -->
-_Waiting for the first workflow run._
+| Service | Uptime (all-time) | Response |
+|---|---|---|
+| API Gateway | 100% | 109 ms |
+| Aptos Relayer | 99.84% | 311 ms |
+| Avalanche Bundler | 100% | 783 ms |
+
+<sub>Mainnet only. Updated 20 Jul 2026, 22:46 UTC.</sub>
 <!-- STATUS:END -->
 
 ### Currently
