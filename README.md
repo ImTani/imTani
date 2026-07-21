@@ -4,7 +4,7 @@ Well, hello there. It seems you've taken quite a fancy, to have made your way al
 way here. Now that you *are* here, we should get to the good bit, shall we?
 
 Tinkering with machine learning at [AiHello](https://aihello.com) since I was seventeen — agentic
-pipelines, voice cloning, retrieval, predictions engines, etc. Where I spent five months on a
+pipelines, voice cloning, retrieval, prediction engines, etc. — where I spent five months on a
 reinforcement-learning agent and shipped the heuristics-based model instead, because the
 heuristics model won. Co-founder at [SmoothSend](https://smoothsend.xyz), which lets you
 send stablecoins without holding the gas token —
@@ -20,7 +20,7 @@ easier for everyone, and I try to [teach it](https://github.com/ImTani/LearnYouA
 - **[clipd](https://github.com/ImTani/clipd)** — you hit a good clip, you press F8, and
   nothing happens, because NVIDIA wasn't on, or the mic changed, or Medal wasn't
   configured. This one works. Rust, ~9 MB, saves in under a millisecond, no account, no
-  subscription, no telemetry.
+  subscription, no telemetry. <!-- add when the store page is up: Source here, [binaries on Steam](URL). -->
 - **[@smoothsend/sdk](https://github.com/SmoothSend/smoothsend-sdk)** — gasless stablecoin
   transfers in four lines.
 - **[godot-time-rewind-2d](https://github.com/ImTani/godot-time-rewind-2d)** — handles all
