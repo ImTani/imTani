@@ -13,7 +13,7 @@ send stablecoins without holding the gas token —
 [live on mainnet](https://status.smoothsend.xyz). I also make [games](https://infinitani.itch.io),
 so I keep making [the](https://github.com/ImTani/godot-time-rewind-2d)
 [things](https://github.com/ImTani/godot-property-selection-window) that make games
-easier for everyone, and I try to [teach it](https://github.com/ImTani/LearnYouAGodot) to people starting out.
+easier for everyone, and I try to [teach it](https://rise-and-shine.thesimple.ink/) to people starting out.
 
 ### Recent
 
