@@ -42,4 +42,4 @@ easier for everyone, and I try to [teach it](https://rise-and-shine.thesimple.in
 
 <!-- <sub>There is a door here. It is unlocked. [Go on, then.](https://github.com/ImTani/imTani/blob/main/rooms/hall.md)</sub> -->
 
-[tani.codes](https://tani.codes) · [LinkedIn](https://www.linkedin.com/in/tanishk-narula)
+[imtani.dev](https://imtani.dev) · [LinkedIn](https://www.linkedin.com/in/tanishk-narula)
