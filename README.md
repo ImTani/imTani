@@ -40,17 +40,6 @@ easier for everyone, and I try to [teach it](https://github.com/ImTani/LearnYouA
 <sub>Mainnet only. Updated 21 Jul 2026, 03:47 UTC.</sub>
 <!-- STATUS:END -->
 
-### Currently
-
-<!-- Optional: uncomment once you've tagged clipd v0.1.0 and there's something to download.
-     - **[clipd](https://github.com/ImTani/clipd)** — you hit a good clip, you press F8, and
-      nothing happens... Rust, ~9 MB, saves in under a millisecond, no account, no
-      subscription, no telemetry. Source here, [binaries on Steam](STEAM_URL). -->
-
-<!-- [FILL] Link the art. Don't describe it. One URL — music, drawings, the Steam credit,
-     a poem, voice work — dropped into the paragraph above, the way the code is linked.
-     A stranger should be able to click it, not be told about it. -->
-
 <!-- <sub>There is a door here. It is unlocked. [Go on, then.](https://github.com/ImTani/imTani/blob/main/rooms/hall.md)</sub> -->
 
 [tani.codes](https://tani.codes) · [LinkedIn](https://www.linkedin.com/in/tanishk-narula)
