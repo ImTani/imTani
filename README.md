@@ -34,11 +34,11 @@ easier, and I [teach it](https://github.com/ImTani/LearnYouAGodot) to people sta
 <!-- STATUS:START -->
 | Service | Uptime (all-time) | Response |
 |---|---|---|
-| API Gateway | 100% | 109 ms |
-| Aptos Relayer | 99.84% | 311 ms |
-| Avalanche Bundler | 100% | 783 ms |
+| API Gateway | 100% | 110 ms |
+| Aptos Relayer | 99.84% | 317 ms |
+| Avalanche Bundler | 100% | 784 ms |
 
-<sub>Mainnet only. Updated 20 Jul 2026, 22:46 UTC.</sub>
+<sub>Mainnet only. Updated 21 Jul 2026, 03:47 UTC.</sub>
 <!-- STATUS:END -->
 
 ### Currently
