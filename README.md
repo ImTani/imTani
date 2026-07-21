@@ -3,23 +3,22 @@
 Well, hello there. It seems you've taken quite a fancy, to have made your way all the
 way here. Now that you *are* here, we should get to the good bit, shall we?
 
-Machine learning at [AiHello](https://aihello.com) since I was seventeen — agentic
-pipelines, voice cloning, retrieval, and a
-[pricing engine](https://medium.com/@tanishknarula) where I spent five months on a
-reinforcement-learning agent and shipped the statistical model instead, because the
-statistical model won. Co-founder at [SmoothSend](https://smoothsend.xyz), which lets you
+Tinkering with machine learning at [AiHello](https://aihello.com) since I was seventeen — agentic
+pipelines, voice cloning, retrieval, predictions engines, etc. Where I spent five months on a
+reinforcement-learning agent and shipped the heuristics-based model instead, because the
+heuristics model won. Co-founder at [SmoothSend](https://smoothsend.xyz), which lets you
 send stablecoins without holding the gas token —
 [SDK](https://www.npmjs.com/package/@smoothsend/sdk),
 [MCP server](https://www.npmjs.com/package/@smoothsend/mcp),
-[live on mainnet](https://status.smoothsend.xyz). I make games, so I keep making
-[the](https://github.com/ImTani/godot-time-rewind-2d)
+[live on mainnet](https://status.smoothsend.xyz). I also make [games](https://infinitani.itch.io),
+so I keep making [the](https://github.com/ImTani/godot-time-rewind-2d)
 [things](https://github.com/ImTani/godot-property-selection-window) that make games
-easier, and I [teach it](https://github.com/ImTani/LearnYouAGodot) to people starting out.
+easier for everyone, and I try to [teach it](https://github.com/ImTani/LearnYouAGodot) to people starting out.
 
 ### Recent
 
 - **[clipd](https://github.com/ImTani/clipd)** — you hit a good clip, you press F8, and
-  nothing happens, because NVIDIA wasn't on, or the overlay didn't load, or Medal wasn't
+  nothing happens, because NVIDIA wasn't on, or the mic changed, or Medal wasn't
   configured. This one works. Rust, ~9 MB, saves in under a millisecond, no account, no
   subscription, no telemetry.
 - **[@smoothsend/sdk](https://github.com/SmoothSend/smoothsend-sdk)** — gasless stablecoin
@@ -27,7 +26,7 @@ easier, and I [teach it](https://github.com/ImTani/LearnYouAGodot) to people sta
 - **[godot-time-rewind-2d](https://github.com/ImTani/godot-time-rewind-2d)** — handles all
   the complex stuff for you. Choose the properties you want to rewind, and get at it.
 - **[FinWise](https://github.com/ImTani/FinWise)** — knowledge-graph RAG over Neo4j with
-  natural-language-to-Cypher. Built at a hackathon. Got me hired.
+  natural-language-to-Cypher. Old, not that smart, built at a hackathon, but got me hired.
 
 ### Running right now
 
@@ -38,13 +37,14 @@ _Waiting for the first workflow run._
 ### Currently
 
 <!-- Optional: uncomment once you've tagged clipd v0.1.0 and there's something to download.
-     ![clipd](https://img.shields.io/github/v/release/ImTani/clipd?label=clipd&color=eb6834)
-     ![size](https://img.shields.io/github/size/ImTani/clipd/dist/clipd.exe?label=binary) -->
+     - **[clipd](https://github.com/ImTani/clipd)** — you hit a good clip, you press F8, and
+      nothing happens... Rust, ~9 MB, saves in under a millisecond, no account, no
+      subscription, no telemetry. Source here, [binaries on Steam](STEAM_URL). -->
 
 <!-- [FILL] Link the art. Don't describe it. One URL — music, drawings, the Steam credit,
      a poem, voice work — dropped into the paragraph above, the way the code is linked.
      A stranger should be able to click it, not be told about it. -->
 
-<sub>There is a door here. It is unlocked. [Go on, then.](https://github.com/ImTani/imTani/blob/main/rooms/hall.md)</sub>
+<!-- <sub>There is a door here. It is unlocked. [Go on, then.](https://github.com/ImTani/imTani/blob/main/rooms/hall.md)</sub> -->
 
-[tani.codes](https://tani.codes) · [LinkedIn](https://www.linkedin.com/in/tanishk-narula) · [@infinitani](https://x.com/infinitani)
+[tani.codes](https://tani.codes) · [LinkedIn](https://www.linkedin.com/in/tanishk-narula)
