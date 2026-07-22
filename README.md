@@ -33,11 +33,11 @@ easier for everyone, and I try to [teach it](https://rise-and-shine.thesimple.in
 <!-- STATUS:START -->
 | Service | Uptime (all-time) | Response |
 |---|---|---|
-| API Gateway | 100% | 110 ms |
-| Aptos Relayer | 99.84% | 317 ms |
+| API Gateway | 100% | 109 ms |
+| Aptos Relayer | 99.84% | 320 ms |
 | Avalanche Bundler | 100% | 784 ms |
 
-<sub>Mainnet only. Updated 21 Jul 2026, 19:52 UTC.</sub>
+<sub>Mainnet only. Updated 22 Jul 2026, 03:49 UTC.</sub>
 <!-- STATUS:END -->
 
 <!-- <sub>There is a door here. It is unlocked. [Go on, then.](https://github.com/ImTani/imTani/blob/main/rooms/hall.md)</sub> -->
