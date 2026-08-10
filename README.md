@@ -37,7 +37,7 @@ easier for everyone, and I try to [teach it](https://rise-and-shine.thesimple.in
 | Aptos Relayer | 99.86% | 386 ms |
 | Avalanche Bundler | 100% | 806 ms |
 
-<sub>Mainnet only. Updated 10 Aug 2026, 02:35 UTC.</sub>
+<sub>Mainnet only. Updated 10 Aug 2026, 08:05 UTC.</sub>
 <!-- STATUS:END -->
 
 <!-- <sub>There is a door here. It is unlocked. [Go on, then.](https://github.com/ImTani/imTani/blob/main/rooms/hall.md)</sub> -->
