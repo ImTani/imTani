@@ -34,10 +34,10 @@ easier for everyone, and I try to [teach it](https://rise-and-shine.thesimple.in
 | Service | Uptime (all-time) | Response |
 |---|---|---|
 | API Gateway | 100% | 119 ms |
-| Aptos Relayer | 99.9% | 504 ms |
-| Avalanche Bundler | 97.06% | 1190 ms |
+| Aptos Relayer | 99.9% | 506 ms |
+| Avalanche Bundler | 97.09% | 1187 ms |
 
-<sub>Mainnet only. Updated 28 Sep 2026, 23:18 UTC.</sub>
+<sub>Mainnet only. Updated 29 Sep 2026, 05:46 UTC.</sub>
 <!-- STATUS:END -->
 
 <!-- <sub>There is a door here. It is unlocked. [Go on, then.](https://github.com/ImTani/imTani/blob/main/rooms/hall.md)</sub> -->
