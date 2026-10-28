@@ -33,11 +33,11 @@ easier for everyone, and I try to [teach it](https://imtani.dev/writing/rise-and
 <!-- STATUS:START -->
 | Service | Uptime (all-time) | Response |
 |---|---|---|
-| API Gateway | 100% | 125 ms |
-| Aptos Relayer | 99.91% | 562 ms |
-| Avalanche Bundler | 97.71% | 1128 ms |
+| API Gateway | 100% | 126 ms |
+| Aptos Relayer | 99.91% | 564 ms |
+| Avalanche Bundler | 97.72% | 1126 ms |
 
-<sub>Mainnet only. Updated 27 Oct 2026, 22:16 UTC.</sub>
+<sub>Mainnet only. Updated 28 Oct 2026, 05:46 UTC.</sub>
 <!-- STATUS:END -->
 
 <!-- <sub>There is a door here. It is unlocked. [Go on, then.](https://github.com/ImTani/imTani/blob/main/rooms/hall.md)</sub> -->
