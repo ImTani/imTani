@@ -35,9 +35,9 @@ easier for everyone, and I try to [teach it](https://imtani.dev/writing/rise-and
 |---|---|---|
 | API Gateway | 100% | 131 ms |
 | Aptos Relayer | 99.92% | 594 ms |
-| Avalanche Bundler | 98.1% | 1084 ms |
+| Avalanche Bundler | 98.11% | 1081 ms |
 
-<sub>Mainnet only. Updated 23 Nov 2026, 23:56 UTC.</sub>
+<sub>Mainnet only. Updated 24 Nov 2026, 09:57 UTC.</sub>
 <!-- STATUS:END -->
 
 <!-- <sub>There is a door here. It is unlocked. [Go on, then.](https://github.com/ImTani/imTani/blob/main/rooms/hall.md)</sub> -->
